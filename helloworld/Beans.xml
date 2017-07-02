@@ -6,7 +6,7 @@
 	xsi:schemaLocation="http://www.springframework.org/schema/beans
     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
 
-	<bean id="helloWorld" class="com.tutorialspoint.HelloWorld">
+	<bean id="helloWorld" class="com.tutorialspoint.helloworld.HelloWorld">
 		<property name="message" value="Hello World!" />
 	</bean>
 

@@ -1,4 +1,4 @@
-package com.tutorialspoint;
+package com.tutorialspoint.required;
 
 import org.springframework.beans.factory.annotation.Required;
 

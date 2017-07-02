@@ -12,7 +12,7 @@
    <context:annotation-config/>
 
    <!-- Definition for student bean -->
-   <bean id="student" class="com.tutorialspoint.Student">
+   <bean id="student" class="com.tutorialspoint.required.Student">
    <!-- @Required 注释应用于 bean 属性的 setter 方法，它表明受影响的 bean 属性在配置时必须放在 XML 配置文件中，
    否则容器就会抛出一个 BeanInitializationException 异常。 -->
       <property name="name"  value="Zara" />

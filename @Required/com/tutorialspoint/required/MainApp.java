@@ -1,4 +1,4 @@
-package com.tutorialspoint;
+package com.tutorialspoint.required;
 
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.support.ClassPathXmlApplicationContext;
