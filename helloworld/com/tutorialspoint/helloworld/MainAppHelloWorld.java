@@ -10,6 +10,7 @@ public class MainAppHelloWorld {
 		// TODO Auto-generated method stub
 //		ApplicationContext context = new ClassPathXmlApplicationContext("Beans.xml");
 		ApplicationContext context = new FileSystemXmlApplicationContext("helloworld/Beans.xml");
+//		ApplicationContext context = new FileSystemXmlApplicationContext("Beans.xml");
 		HelloWorld obj = (HelloWorld) context.getBean("helloWorld");
 		obj.getMessage();
 	}
