@@ -1,8 +1,6 @@
 package com.tutorialspoint.event;
 
-import org.springframework.context.ApplicationContext;
 import org.springframework.context.ConfigurableApplicationContext;
-import org.springframework.context.support.ClassPathXmlApplicationContext;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class MainApp {
@@ -21,6 +19,7 @@ public class MainApp {
 
 		// Let us raise a stop event.
 		context.stop();
+		context.close();
 	}
 
 }

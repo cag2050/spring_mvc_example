@@ -2,6 +2,7 @@ package com.tutorialspoint.customevent;
 
 import org.springframework.context.ApplicationEvent;
 
+@SuppressWarnings("serial")
 public class CustomEvent extends ApplicationEvent {
 
 	public CustomEvent(Object source) {

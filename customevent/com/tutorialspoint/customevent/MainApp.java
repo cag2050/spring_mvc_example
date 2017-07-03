@@ -11,6 +11,7 @@ public class MainApp {
 		CustomEventPublisher cvp = (CustomEventPublisher) context.getBean("customEventPublisher");
 		cvp.publish();
 		cvp.publish();
+		context.close();
 	}
 
 }
