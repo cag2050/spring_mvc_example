@@ -9,6 +9,7 @@
 	<classpathentry kind="src" path="@Import"/>
 	<classpathentry kind="src" path="event"/>
 	<classpathentry kind="src" path="customevent"/>
+	<classpathentry kind="src" path="aopxml"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="/Users/yixia/Downloads/spring-framework-4.3.9.RELEASE/libs/spring-aop-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/yixia/Downloads/spring-framework-4.3.9.RELEASE/libs/spring-aspects-4.3.9.RELEASE.jar"/>
@@ -31,5 +32,9 @@
 	<classpathentry kind="lib" path="/Users/yixia/Downloads/spring-framework-4.3.9.RELEASE/libs/spring-webmvc-portlet-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/yixia/Downloads/spring-framework-4.3.9.RELEASE/libs/spring-websocket-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/yixia/Downloads/commons-logging-1.2/commons-logging-1.2.jar"/>
+	<classpathentry kind="lib" path="/Users/yixia/Downloads/aspectj-1.8.10/lib/aspectjrt.jar"/>
+	<classpathentry kind="lib" path="/Users/yixia/Downloads/aspectj-1.8.10/lib/aspectjtools.jar"/>
+	<classpathentry kind="lib" path="/Users/yixia/Downloads/aspectj-1.8.10/lib/aspectjweaver.jar"/>
+	<classpathentry kind="lib" path="/Users/yixia/Downloads/aspectj-1.8.10/lib/org.aspectj.matcher.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
