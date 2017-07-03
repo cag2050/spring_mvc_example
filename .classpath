@@ -7,6 +7,7 @@
 	<classpathentry kind="src" path="@Qualifier"/>
 	<classpathentry kind="src" path="initdestroy"/>
 	<classpathentry kind="src" path="@Import"/>
+	<classpathentry kind="src" path="event"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.8"/>
 	<classpathentry kind="lib" path="/Users/yixia/Downloads/spring-framework-4.3.9.RELEASE/libs/spring-aop-4.3.9.RELEASE.jar"/>
 	<classpathentry kind="lib" path="/Users/yixia/Downloads/spring-framework-4.3.9.RELEASE/libs/spring-aspects-4.3.9.RELEASE.jar"/>
