@@ -22,7 +22,7 @@ public class StudentJDBCTemplate implements StudentDAO {
 			String SQL3 = "insert into Marks(sid, marks, year) " + "values (?, ?, ?)";
 			jdbcTemplateObject.update(SQL3, sid, marks, year);
 			System.out.println("Created Name = " + name + ", Age = " + age);
-			// to simulate the exception.
+			// to simulate the exception，模拟抛出一个异常，所以记录没有插入数据库，回滚了
 			throw new RuntimeException("simulate Error condition") ;
 		} catch (DataAccessException e) {
 			System.out.println("Error in creating record, rolling back");
