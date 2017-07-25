@@ -1,11 +1,14 @@
 package com.tutorialspoint.log4j;
 
-import org.apache.logging.log4j.LogManager;
-import org.apache.logging.log4j.Logger;
+//import org.apache.logging.log4j.LogManager;
+//import org.apache.logging.log4j.Logger;
+import org.apache.commons.logging.Log;
+import org.apache.commons.logging.LogFactory;
 import org.springframework.context.support.FileSystemXmlApplicationContext;
 
 public class MainApp {
-	static Logger log = LogManager.getLogger(MainApp.class.getName());
+//	static Logger log = LogManager.getLogger(MainApp.class.getName());
+	static Log log = LogFactory.getLog(MainApp.class.getName());
 
 	public static void main(String[] args) {
 		FileSystemXmlApplicationContext context = new FileSystemXmlApplicationContext("log4j/Beans.xml");
